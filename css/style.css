@@ -48,7 +48,7 @@ h2 {
 
 header {
     position: fixed;
-    top: 0;
+    top: 50px;
     left: 0;
     right: 0;
     z-index: 999;
@@ -421,4 +421,21 @@ header .navigation-menu__wrapper ul li.brand {
 
 .browser .cols .col-50 p span {
     font-weight: bold;
+}
+.author {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    box-shadow: 0 0 5px lightgray;
+    z-index: 9999;
+}
+.author a {
+    color:rgb(211, 1, 1);
+
 }
